@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "outFile": "app/index.js"
+    },
+    "include": ["src/**/*"],
+    "watchOptions": {
+        "excludeDirectories": ["**/node_modules", "app"]
+    },
+}
